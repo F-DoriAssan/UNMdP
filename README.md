@@ -1,11 +1,30 @@
-## Aplicacion creada para PRoyecto de Medicina de la UNMdP, se utiliza HTML5, CSS, JavaScript and jQuery. La forma de trabajo en cuanto archivos, carpetas y variables son en ingles. El desarrollo y los comentarios se codigo realiza en español. En las animaciones, scroll, pointer y dom se utiliza libreria vanillaTilt.js. Tiene un simulador de bases de datos .json en la parte de secciones GRAFICAS.
+# Aplicação para Projeto de Medicina da UNMdP
 
-Instalación
-Clonar el repo
-    Instalar paquetes npm i , npm i nodemon -D, npm i method-override (El uso de nodemon para el reinicio del servidor es opcional)
-    Agregar en el packge.json dev:"nodemon index.js"
-    Iniciar servidor npm run dev
+Esta aplicação foi criada para o Projeto de Medicina da UNMdP. Utiliza HTML5, CSS, JavaScript e jQuery, com arquivos, pastas e variáveis nomeados em inglês. O desenvolvimento e os comentários no código estão em espanhol. A aplicação usa a biblioteca **vanillaTilt.js** para animações, scroll, pointer e manipulação do DOM. Inclui um simulador de banco de dados `.json` na seção de **Gráficos**.
 
-Configuracion predeterminada PORT | 3000 app.js
+## Instalação
 
+1. Clone o repositório.
+2. Instale os pacotes:
+   ```bash
+   npm i
+   npm i nodemon -D
+   npm i method-override
+(O uso do nodemon para reiniciar o servidor é opcional.)
+
+Adicione o seguinte ao package.json:
+
+json
+Copiar código
+"scripts": {
+  "dev": "nodemon index.js"
+}
+Inicie o servidor:
+
+bash
+Copiar código
+npm run dev
+Configuração Predeterminada
+PORT: 3000
+Arquivo de Configuração: app.js
 © 2023 DoriAss
